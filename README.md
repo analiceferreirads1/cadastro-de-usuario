@@ -1,12 +1,88 @@
-# React + Vite
+# Sistema de  Cadastro de Usuário 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Objetivo do Projeto
+Aplicação web desenvolvida com React.js e Styled Components, com foco em manipulação de listas, integração com API e experiência de usuário. 
+Ideal para treinar conceitos de front-end moderno, componentização e consumo de dados externos,consolidar o uso de props, estados, rotas e estilização moderna
+Este projeto foi criado com o propósito de:
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Este projeto está disponível online para visualização em:  
+[https://seu-projeto.vercel.app](https://seu-projeto.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tecnologias utilizadas
+
+- React.js  
+- Styled Components 
+- Axios
+- Vite 
+- JavaScript ES6  
+- Git e GitHub
+- React Router DOM  
+
+---
+
+
+## Funcionalidades
+
+-  Cadastro de novos usuários  
+-  Listagem de usuários cadastrados  
+-  Exclusão de usuários individualmente  
+-  Avatares automáticos via ID  
+-  Navegação com React Router  
+-  Interface moderna e responsiva 
+
+---
+
+## Estrutura do Projeto
+
+```bash
+src/
+├── assets/ # Ícones e imagens
+├── components/ # Componentes reutilizáveis
+│ ├── Button/
+│ └── TopBackground/
+├── pages/
+│ └── ListUsers/
+├── services/
+│ └── api.js # Axios configurado
+├── App.jsx # Definição de rotas
+└── main.jsx # Entrada da aplicação
+---
+ Demonstração
+
+
+---
+
+## 🔗 API de Usuários
+
+Utiliza uma API REST com as seguintes rotas:
+
+- `GET /usuarios` → Listagem  
+- `POST /usuarios` → Cadastro  
+- `DELETE /usuarios/:id` → Exclusão  
+
+Avatares são gerados dinamicamente com:
+
+```url
+https://avatar.iran.liara.run/public?username={id}
+
+Clone o repositório:
+git clone https://github.com/analiceferreirads1/cadastro-de-usuario.git
+
+Instale as dependências:
+npm install
+
+Rode o projeto:
+npm run dev
+
+Acesse:
+
+http://localhost:5173
+
+Autora
+Analice Ferreira
+Desenvolvedora Full Stack em formação pelo DevClub
+LinkedIn https://www.linkedin.com/in/analice-ferreira-de-souza-47620b32b/| GitHub https://github.com/analiceferreirads1
