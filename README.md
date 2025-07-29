@@ -1,3 +1,4 @@
+
 # Sistema de  Cadastro de Usuário 
 
 Objetivo do Projeto
@@ -5,10 +6,12 @@ Aplicação web desenvolvida com React.js e Styled Components, com foco em manip
 Ideal para treinar conceitos de front-end moderno, componentização e consumo de dados externos,consolidar o uso de props, estados, rotas e estilização moderna
 Este projeto foi criado com o propósito de:
 
+## 🖥️ Demo
 
+![Demonstração do projeto](assets/demo.gif)
 
-Este projeto está disponível online para visualização em:  
-[https://seu-projeto.vercel.app](https://seu-projeto.vercel.app)
+🔗
+[Acesse a aplicação online](https://cadastro-de-usuario-v25r.vercel.app)
 
 ---
 
