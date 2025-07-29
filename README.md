@@ -8,7 +8,7 @@ Ideal para treinar conceitos de front-end moderno, componentização e consumo d
 
 ## 🖥️ Demo
 
-![Demonstração do projeto](assets/demo.gif)
+![Demonstração do projeto](assets/cadastro-de-usuarios.gif)
 
 🔗
 [Acesse a aplicação online](https://cadastro-de-usuario-v25r.vercel.app)
