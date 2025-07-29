@@ -4,7 +4,7 @@
 Objetivo do Projeto
 Aplicação web desenvolvida com React.js e Styled Components, com foco em manipulação de listas, integração com API e experiência de usuário. 
 Ideal para treinar conceitos de front-end moderno, componentização e consumo de dados externos,consolidar o uso de props, estados, rotas e estilização moderna
-Este projeto foi criado com o propósito de:
+
 
 ## 🖥️ Demo
 
